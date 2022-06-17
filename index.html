@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codar.</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/index.css">
+
 
     <!-- Generate icons for Web, Android, Microsoft, and iOS (iPhone and iPad) Apps -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -29,44 +31,70 @@
 
 <body>
     <header>
-        <div class="titulo-menu">
-            <h1>Codar.</h1>
+        <div class="tituloMenu">
+            <h1><i>Codar<span class="pontoFinal">.</span></i></h1>
         </div>
+
         <div class="menu">
             <nav>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#contatos">Contatos</a></li>
+                    <li class="btnMenu"><a class="btnColor" href="login.html" target="_blank">Login</a></li>
                 </ul>
             </nav>
-            <!-- <button class="btn-menu" type="submit"><a href="login.html" target="_blank">Login</a></button> -->
         </div>
     </header>
 
-    <section class="secao-inicio" id="inicio">
-        <img src="assets/video_call.png" alt="">
-        <div>
-            <h2>
-                Alavanque seu negócio com um <br>
-                Website incrível
-            </h2>
+    <section class="secaoInicio" id="inicio">
+        <div class="imgAlign">
+            <img class="imgTopo" src="assets/video_call.png" alt="notebook com a ilustração de um menino com a mão levantada">
+        </div>
 
-            <button>Solicitar Orçamento</button>
+        <div>
+            <h2 class="subtituloTopo2">
+                Alavanque seu negócio com um
+            </h2>
+            <h3 class="subtituloTopo3">Website incrível</h3>
+
+            <div class="btnAlign">
+                <button class="btnTopo">Solicitar Orçamento</button>
+            </div>
         </div>
     </section>
 
-    <section class="secao-servicos" id="servicos">
+    <section class="secaoServicos" id="servicos">
         <img src="assets/coding_.png" alt="">
         <div>
-            <ul>
-                <li>Domínio personalizado</li>
-                <li>Hospedagem</li>
-                <li>Site responsivo</li>
-                <li>Redes sociais</li>
-                <li>Chat online</li>
-                <li>Blog integrado</li>
-            </ul>
+
+            <div>
+                <div class="alinhamento">
+                    <span class="material-symbols-rounded">check_circle</span>
+                    <p class="espacamento">Domínio personalizado</p> 
+                </div>
+
+                <div class="alinhamento">
+                    <p><span class="material-symbols-rounded">check_circle</span>Hospedagem</p>
+                </div>
+
+                <div class="alinhamento">
+                    <p><span class="material-symbols-rounded">check_circle</span>Site responsivo</p>
+                </div>
+
+                <div class="alinhamento">
+                    <p><span class="material-symbols-rounded">check_circle</span>Redes sociais</p>
+                </div>
+
+                <div class="alinhamento">
+                    <p><span class="material-symbols-rounded">check_circle</span>Chat online</p>                  
+                </div>
+
+                <div class="alinhamento">
+                    <p><span class="material-symbols-rounded">check_circle</span>Blog integrado</p>
+                </div>
+            </div>
+            
 
             <div>
                 <p>Nossa equipe está à disposição!</p>
